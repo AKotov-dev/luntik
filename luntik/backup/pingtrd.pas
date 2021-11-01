@@ -39,7 +39,6 @@ begin
     PingProcess.Executable := 'bash';
     PingProcess.Parameters.Add('-c');
     PingProcess.Parameters.Add(
-      //'if [[ $(ip -br a | grep tun0) ]] && [[ ERR=$(ping google.com -c 1 2>&1 > /dev/null) ]]; then echo "yes"; else echo "no"; fi');
       'ping -c 1 google.com &> /dev/null && [[ $(ip -br a | grep tun0) ]] && echo "yes" || echo "no"');
 
     PingProcess.Options := [poUsePipes, poWaitOnExit];
