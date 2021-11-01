@@ -1,0 +1,14 @@
+[Unit]
+Description=Luntik VPN Connector
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+PrivateTmp=true
+Type=forking
+PIDFile=/run/openvpn/luntik.pid
+ExecStart=/usr/sbin/openvpn --daemon --writepid /run/openvpn/luntik.pid \
+    --cd /etc/luntik/ --config luntik.conf --log /var/log/luntik.log
+
+[Install]
+WantedBy=multi-user.target

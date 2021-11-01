@@ -5,4 +5,4 @@ The connection is raised immediately after downloading the `*.ovpn` file. The co
 
 Note: Don't forget to open the iptables ports required for configurations.
 
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+![](https://github.com/jon/coolproject/raw/master/image/image.png)

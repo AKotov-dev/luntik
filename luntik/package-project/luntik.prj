@@ -1,0 +1,78 @@
+[NAME]
+name=luntik
+
+[VERSION]
+version=0.1
+
+[RELEASE]
+release=0.mrx8
+
+[GROUP]
+group=Applications/Internet
+
+[DESCRIPTION]
+0=Luntik VPN Connector
+1=...
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2020
+
+[SUMMARY]
+summary=Luntik VPN Connector
+
+[URLCOPY]
+urlcopy=none
+
+[LICENSE]
+license=GPLv3+
+
+[DEPS]
+deps=openvpn systemd polkit
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[SIGN]
+sign=0
+
+[DEB]
+deb=0
+
+[FILES]
+0=/usr/bin/luntik
+1=/usr/share/luntik/
+2=/usr/share/applications/luntik.desktop
+3=/usr/share/doc/luntik/
+4=/usr/share/polkit-1/actions/luntik.policy
+5=/usr/share/icons/luntik.png
+6=/etc/luntik/edit-conf.sh
+7=/etc/luntik/update-resolv-conf
+8=/etc/systemd/system/luntik.service
+
+[AFTERINSTALL]
+0=systemctl daemon-reload
+
+[AFTERREMOVE]
+0=systemctl daemon-reload
+
+[URL32]
+url32=none
+
+[URL64]
+url64=
+
+[PROGRAMNAME]
+programname=Luntik VPN Connector
+
+[DEVTOOL]
+devtool=Lazarus
+
+[TOOLVERSION]
+toolversion=2.0.10
