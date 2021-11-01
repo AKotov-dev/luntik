@@ -28,7 +28,7 @@ object MainForm: TMainForm
   end
   object Memo1: TMemo
     Left = 0
-    Height = 633
+    Height = 636
     Top = 50
     Width = 944
     Align = alClient
@@ -116,8 +116,8 @@ object MainForm: TMainForm
   end
   object StaticText2: TStaticText
     Left = 0
-    Height = 20
-    Top = 683
+    Height = 17
+    Top = 686
     Width = 944
     Align = alBottom
     Caption = 'License: GPLv3   Author: alex_q_2000 (C) 2021   URL: https://linuxforum.ru'

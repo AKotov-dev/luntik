@@ -73,7 +73,7 @@ begin
   Application.ProcessMessages;
   ExProcess := TProcess.Create(nil);
   try
-    ExProcess.Executable := 'bash';  //sh или xterm
+    ExProcess.Executable := 'bash';
     ExProcess.Parameters.Add('-c');
     ExProcess.Parameters.Add(command);
     //  ExProcess.Options := ExProcess.Options + [poWaitOnExit];
