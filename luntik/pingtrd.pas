@@ -39,7 +39,7 @@ begin
     PingProcess.Executable := 'bash';
     PingProcess.Parameters.Add('-c');
     PingProcess.Parameters.Add(
-      'ping -c 1 google.com &> /dev/null && [[ $(ip -br a | grep tun[[:digit:]]) ]] && echo "yes" || echo "no"');
+      'ping -c 2 google.com &> /dev/null && [[ $(ip -br a | grep tun[[:digit:]]) ]] && echo "yes" || echo "no"');
 
     PingProcess.Options := [poUsePipes, poWaitOnExit];
 
@@ -48,7 +48,7 @@ begin
       PingProcess.Execute;
       PingStr.LoadFromStream(PingProcess.Output);
       Synchronize(@ShowStatus);
-      Sleep(1000);
+      Sleep(800);
     end;
   finally
     PingStr.Free;

@@ -75,9 +75,9 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     AnchorSideBottom.Side = asrCenter
     Left = 5
-    Height = 14
-    Top = 17
-    Width = 14
+    Height = 13
+    Top = 18
+    Width = 13
     BorderSpacing.Left = 5
     Brush.Color = clYellow
     Shape = stCircle
@@ -88,10 +88,10 @@ object MainForm: TMainForm
     AnchorSideTop.Control = AutoStartCheckBox
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = LoadBtn
-    Left = 24
+    Left = 23
     Height = 36
     Top = 6
-    Width = 592
+    Width = 593
     Anchors = [akTop, akLeft, akRight]
     AutoSelect = False
     BorderSpacing.Left = 5
