@@ -1,7 +1,7 @@
 [Unit]
-Description=Luntik VPN Connector
-After=network-online.target
-Wants=network-online.target
+Description=Luntik OpenVPN Connector
+After=network-online.target nss-lookup.target
+Wants=network-online.target nss-lookup.target
 
 [Service]
 PrivateTmp=true

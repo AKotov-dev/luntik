@@ -2,7 +2,7 @@
 name=luntik
 
 [VERSION]
-version=0.2
+version=0.3
 
 [RELEASE]
 release=0.mrx8
@@ -31,7 +31,7 @@ urlcopy=https://github.com/AKotov-dev/luntik
 license=GPLv3+
 
 [DEPS]
-deps=openvpn systemd polkit
+deps=openvpn systemd polkit resolvconf procps-ng
 
 [META]
 meta=0
@@ -84,8 +84,12 @@ toolversion=2.0.10
 3=
 4=Note: Don't forget to open the iptables ports required for configurations.
 5=
-6=v0.2
-7=+ bypass auth-user-pass
-8=
-9=v0.1
-10=- initial release
+6=v0.3
+7=+ rpm deps: resolvconf procps-ng
+8=+ improved luntik.service
+9=
+10=v0.2
+11=+ bypass auth-user-pass
+12=
+13=v0.1
+14=- initial release

@@ -1,12 +1,12 @@
 object MainForm: TMainForm
-  Left = 302
-  Height = 703
-  Top = 126
-  Width = 944
+  Left = 327
+  Height = 700
+  Top = 123
+  Width = 940
   ActiveControl = ReStartBtn
   Caption = 'Luntik'
-  ClientHeight = 703
-  ClientWidth = 944
+  ClientHeight = 700
+  ClientWidth = 940
   OnClose = FormClose
   OnCreate = FormCreate
   OnShow = FormShow
@@ -16,7 +16,7 @@ object MainForm: TMainForm
   object ReStartBtn: TButton
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 849
+    Left = 845
     Height = 32
     Top = 8
     Width = 90
@@ -28,9 +28,9 @@ object MainForm: TMainForm
   end
   object Memo1: TMemo
     Left = 0
-    Height = 636
+    Height = 633
     Top = 50
-    Width = 944
+    Width = 940
     Align = alClient
     BorderSpacing.Top = 50
     Font.Height = -12
@@ -45,7 +45,7 @@ object MainForm: TMainForm
   end
   object StopBtn: TButton
     AnchorSideRight.Control = ReStartBtn
-    Left = 757
+    Left = 753
     Height = 32
     Top = 8
     Width = 90
@@ -59,7 +59,7 @@ object MainForm: TMainForm
     AnchorSideTop.Control = StopBtn
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = StopBtn
-    Left = 663
+    Left = 659
     Height = 32
     Top = 8
     Width = 91
@@ -91,7 +91,7 @@ object MainForm: TMainForm
     Left = 23
     Height = 36
     Top = 6
-    Width = 593
+    Width = 589
     Anchors = [akTop, akLeft, akRight]
     AutoSelect = False
     BorderSpacing.Left = 5
@@ -105,7 +105,7 @@ object MainForm: TMainForm
     AnchorSideRight.Control = AutoStartCheckBox
     AnchorSideBottom.Control = FileEdit
     AnchorSideBottom.Side = asrBottom
-    Left = 617
+    Left = 613
     Height = 36
     Top = 6
     Width = 38
@@ -117,8 +117,8 @@ object MainForm: TMainForm
   object StaticText2: TStaticText
     Left = 0
     Height = 17
-    Top = 686
-    Width = 944
+    Top = 683
+    Width = 940
     Align = alBottom
     Caption = 'License: GPLv3   Author: alex_q_2000 (C) 2021   URL: https://linuxforum.ru'
     Color = clDefault
