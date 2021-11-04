@@ -6,4 +6,4 @@ The connection is raised immediately after downloading the `*.ovpn` file. The co
 Note: Don't forget to open the iptables ports required for configurations.  
 Similar topic (Luntik_WG - WireGuard connector): https://github.com/AKotov-dev/luntik_wg
 
-![](https://github.com/AKotov-dev/luntik/blob/main/ScreenShot.png)
+![](https://github.com/AKotov-dev/luntik/blob/main/ScreenShot1.png)
