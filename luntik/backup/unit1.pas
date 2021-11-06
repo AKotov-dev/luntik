@@ -106,8 +106,7 @@ end;
 procedure TMainForm.ReStartBtnClick(Sender: TObject);
 begin
   //Перезапуск соединения
-  if FileExists('/etc/luntik/luntik.conf') then
-    StartProcess('systemctl stop luntik; systemctl start luntik');
+  StartProcess('systemctl stop luntik && systemctl start luntik');
 end;
 
 procedure TMainForm.AutoStartCheckBoxChange(Sender: TObject);
