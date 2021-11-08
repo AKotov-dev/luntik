@@ -8,4 +8,3 @@ Note: Don't forget to open the iptables ports required for configurations.
 Similar topic (LuntikWG - WireGuard connector): https://github.com/AKotov-dev/luntikwg
 
 ![](https://github.com/AKotov-dev/luntik/blob/main/ScreenShot1.png)
-
