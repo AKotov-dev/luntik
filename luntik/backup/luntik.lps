@@ -48,6 +48,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="93" Y="47"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
@@ -57,10 +58,9 @@
         <Filename Value="pingtrd.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="PingTRD"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="42"/>
-        <CursorPos X="3" Y="8"/>
+        <CursorPos X="31" Y="47"/>
         <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit2>
