@@ -106,6 +106,9 @@ end;
 procedure TMainForm.ReStartBtnClick(Sender: TObject);
 begin
   //Перезапуск соединения
+  Shape1.Brush.Color := clYellow;
+  Shape1.Repaint;
+
   if FileExists('/etc/luntik/luntik.conf') then
     StartProcess('systemctl stop luntik; systemctl start luntik');
 end;
@@ -147,9 +150,12 @@ begin
   end;
 end;
 
+//Останов соединения
 procedure TMainForm.StopBtnClick(Sender: TObject);
 begin
   StartProcess('systemctl stop luntik');
+  Shape1.Brush.Color := clYellow;
+  Shape1.Repaint;
 end;
 
 procedure TMainForm.FormCreate(Sender: TObject);

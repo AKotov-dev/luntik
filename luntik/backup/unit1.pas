@@ -147,9 +147,12 @@ begin
   end;
 end;
 
+//Останов соединения
 procedure TMainForm.StopBtnClick(Sender: TObject);
 begin
   StartProcess('systemctl stop luntik');
+  Shape1.Brush.Color := clYellow;
+  Shape1.Repaint;
 end;
 
 procedure TMainForm.FormCreate(Sender: TObject);

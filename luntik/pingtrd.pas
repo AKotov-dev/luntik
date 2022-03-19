@@ -57,9 +57,9 @@ begin
   end;
 end;
 
+//Индикатора vpn-соединения
 procedure CheckPing.ShowStatus;
 begin
-  Application.ProcessMessages;
   if Trim(PingStr[0]) = 'yes' then
     MainForm.Shape1.Brush.Color := clLime
   else
