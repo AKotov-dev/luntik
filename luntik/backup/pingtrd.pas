@@ -39,7 +39,7 @@ begin
     PingProcess.Executable := 'bash';
     PingProcess.Parameters.Add('-c');
     PingProcess.Parameters.Add(
-      '[[ $(fping google.com) && $(ip -br a | grep tun[[:digit:]]) ]] && echo "yes" || echo "no"');
+      'ping -c 2 google.com &> /dev/null && [[ $(ip -br a | grep tun[[:digit:]]) ]] && echo "yes" || echo "no"');
 
     PingProcess.Options := [poUsePipes, poWaitOnExit];
 

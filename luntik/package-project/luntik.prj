@@ -2,7 +2,7 @@
 name=luntik
 
 [VERSION]
-version=0.4
+version=0.5
 
 [RELEASE]
 release=0.mrx8
@@ -31,7 +31,7 @@ urlcopy=https://github.com/AKotov-dev/luntik
 license=GPLv3+
 
 [DEPS]
-deps=openvpn systemd polkit resolvconf procps-ng
+deps=openvpn systemd polkit resolvconf procps-ng fping
 
 [META]
 meta=0
@@ -75,7 +75,7 @@ programname=Luntik OpenVPN Connector
 devtool=Lazarus
 
 [TOOLVERSION]
-toolversion=2.0.10
+toolversion=2.2.0
 
 [INFO]
 0=Luntik is a simplified version of the OpenVPN-GUI. Loads any password-free *.ovpn configuration, adapts it to VPN-Up/Down events to work correctly with VPN/DNS, and turns off persist-tun, since most free configurations are designed for Windows. There is an autostart on reboot.
@@ -84,15 +84,18 @@ toolversion=2.0.10
 3=
 4=Note: Don't forget to open the iptables ports required for configurations.
 5=
-6=v0.4
-7=+ final release
+6=v0.5
+7=+ using fping to check the connection
 8=
-9=v0.3
-10=+ rpm deps: resolvconf procps-ng
-11=+ improved luntik.service
-12=
-13=v0.2
-14=+ bypass auth-user-pass
+9=v0.4
+10=+ final release
+11=
+12=v0.3
+13=+ rpm deps: resolvconf procps-ng
+14=+ improved luntik.service
 15=
-16=v0.1
-17=- initial release
+16=v0.2
+17=+ bypass auth-user-pass
+18=
+19=v0.1
+20=- initial release
