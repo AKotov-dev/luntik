@@ -2,7 +2,7 @@
 name=luntik
 
 [VERSION]
-version=0.5
+version=0.6
 
 [RELEASE]
 release=0.mrx9
@@ -84,19 +84,23 @@ toolversion=2.2.0
 3=
 4=Note: Don't forget to open the iptables ports required for configurations.
 5=
-6=v0.5
-7=+ using fping to check the connection
-8=+ changing the prefix of rpm-packages to mrx9
+6=v0.6
+7=+ DNS Leak protection
+8=+ Release for Mageia-9 and higher
 9=
-10=v0.4
-11=+ final release
-12=
-13=v0.3
-14=+ rpm deps: resolvconf procps-ng
-15=+ improved luntik.service
+10=v0.5
+11=+ using fping to check the connection
+12=+ changing the prefix of rpm-packages to mrx9
+13=
+14=v0.4
+15=+ final release
 16=
-17=v0.2
-18=+ bypass auth-user-pass
-19=
-20=v0.1
-21=- initial release
+17=v0.3
+18=+ rpm deps: resolvconf procps-ng
+19=+ improved luntik.service
+20=
+21=v0.2
+22=+ bypass auth-user-pass
+23=
+24=v0.1
+25=- initial release
