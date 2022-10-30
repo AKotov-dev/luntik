@@ -2,7 +2,7 @@
 name=luntik
 
 [VERSION]
-version=0.6
+version=0.7
 
 [RELEASE]
 release=0.mrx9
@@ -31,7 +31,7 @@ urlcopy=https://github.com/AKotov-dev/luntik
 license=GPLv3+
 
 [DEPS]
-deps=openvpn systemd polkit resolvconf procps-ng fping
+deps=openvpn systemd polkit resolvconf procps-ng fping gtk2
 
 [META]
 meta=0
@@ -84,23 +84,28 @@ toolversion=2.2.0
 3=
 4=Note: Don't forget to open the iptables ports required for configurations.
 5=
-6=v0.6
-7=+ DNS Leak protection
-8=+ Release for Mageia-9 and higher
-9=
-10=v0.5
-11=+ using fping to check the connection
-12=+ changing the prefix of rpm-packages to mrx9
-13=
-14=v0.4
-15=+ final release
-16=
-17=v0.3
-18=+ rpm deps: resolvconf procps-ng
-19=+ improved luntik.service
-20=
-21=v0.2
-22=+ bypass auth-user-pass
-23=
-24=v0.1
-25=- initial release
+6=v0.7
+7=+ Adjusted rpm dependencies (gtk2, etc)
+8=+ Definition of DE when starting from root (kdesu/pkexec)
+9=+ RPM packages for Mageia-8 and Mageia-9
+10=
+11=v0.6
+12=+ DNS Leak protection
+13=+ Release for Mageia-9 and higher
+14=
+15=v0.5
+16=+ using fping to check the connection
+17=+ changing the prefix of rpm-packages to mrx9
+18=
+19=v0.4
+20=+ final release
+21=
+22=v0.3
+23=+ rpm deps: resolvconf procps-ng
+24=+ improved luntik.service
+25=
+26=v0.2
+27=+ bypass auth-user-pass
+28=
+29=v0.1
+30=- initial release

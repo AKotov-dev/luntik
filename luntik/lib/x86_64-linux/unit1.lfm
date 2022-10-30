@@ -1,12 +1,12 @@
 object MainForm: TMainForm
-  Left = 290
-  Height = 683
+  Left = 304
+  Height = 620
   Top = 124
-  Width = 918
+  Width = 830
   ActiveControl = ReStartBtn
   Caption = 'Luntik'
-  ClientHeight = 683
-  ClientWidth = 918
+  ClientHeight = 620
+  ClientWidth = 830
   OnClose = FormClose
   OnCreate = FormCreate
   OnShow = FormShow
@@ -16,7 +16,7 @@ object MainForm: TMainForm
   object ReStartBtn: TButton
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 823
+    Left = 735
     Height = 32
     Top = 8
     Width = 90
@@ -28,9 +28,9 @@ object MainForm: TMainForm
   end
   object Memo1: TMemo
     Left = 0
-    Height = 616
+    Height = 553
     Top = 50
-    Width = 918
+    Width = 830
     Align = alClient
     BorderSpacing.Top = 50
     Font.Height = -12
@@ -45,7 +45,7 @@ object MainForm: TMainForm
   end
   object StopBtn: TButton
     AnchorSideRight.Control = ReStartBtn
-    Left = 731
+    Left = 643
     Height = 32
     Top = 8
     Width = 90
@@ -59,7 +59,7 @@ object MainForm: TMainForm
     AnchorSideTop.Control = StopBtn
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = StopBtn
-    Left = 637
+    Left = 549
     Height = 32
     Top = 8
     Width = 91
@@ -91,7 +91,7 @@ object MainForm: TMainForm
     Left = 22
     Height = 37
     Top = 6
-    Width = 568
+    Width = 480
     Anchors = [akTop, akLeft, akRight]
     AutoSelect = False
     BorderSpacing.Left = 5
@@ -105,7 +105,7 @@ object MainForm: TMainForm
     AnchorSideRight.Control = AutoStartCheckBox
     AnchorSideBottom.Control = FileEdit
     AnchorSideBottom.Side = asrBottom
-    Left = 591
+    Left = 503
     Height = 37
     Top = 6
     Width = 38
@@ -117,8 +117,8 @@ object MainForm: TMainForm
   object StaticText2: TStaticText
     Left = 0
     Height = 17
-    Top = 666
-    Width = 918
+    Top = 603
+    Width = 830
     Align = alBottom
     Caption = 'License: GPLv3   Author: alex_q_2000 (C) 2021   URL: https://linuxforum.ru'
     Color = clDefault
@@ -131,18 +131,18 @@ object MainForm: TMainForm
   end
   object Timer1: TTimer
     OnTimer = Timer1Timer
-    Left = 784
+    Left = 760
     Top = 65
   end
   object XMLPropStorage1: TXMLPropStorage
     StoredValues = <>
-    Left = 696
+    Left = 672
     Top = 65
   end
   object OpenDialog1: TOpenDialog
     Filter = 'OpenVPN configuration (*.ovpn)|*.ovpn'
     InitialDir = '~/'
-    Left = 592
+    Left = 568
     Top = 64
   end
 end
